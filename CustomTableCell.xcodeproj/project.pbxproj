@@ -14,6 +14,9 @@
 		652ED0E61BBE5D5A00912716 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652ED0E51BBE5D5A00912716 /* Images.xcassets */; };
 		652ED0E91BBE5D5A00912716 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652ED0E71BBE5D5A00912716 /* LaunchScreen.xib */; };
 		652ED0F51BBE5D5A00912716 /* CustomTableCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 652ED0F41BBE5D5A00912716 /* CustomTableCellTests.m */; };
+		652ED0FF1BBE5FD800912716 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652ED0FE1BBE5FD800912716 /* CustomCell.xib */; };
+		652ED1021BBE636200912716 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 652ED1011BBE636200912716 /* CustomTableViewCell.m */; };
+		652ED1041BBE68AE00912716 /* cat1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 652ED1031BBE68AE00912716 /* cat1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 		652ED0EE1BBE5D5A00912716 /* CustomTableCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTableCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		652ED0F31BBE5D5A00912716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		652ED0F41BBE5D5A00912716 /* CustomTableCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableCellTests.m; sourceTree = "<group>"; };
+		652ED0FE1BBE5FD800912716 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		652ED1001BBE636200912716 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		652ED1011BBE636200912716 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		652ED1031BBE68AE00912716 /* cat1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat1.jpg; path = ../../../../Desktop/cats/cat1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +96,10 @@
 				652ED0E51BBE5D5A00912716 /* Images.xcassets */,
 				652ED0E71BBE5D5A00912716 /* LaunchScreen.xib */,
 				652ED0D81BBE5D5A00912716 /* Supporting Files */,
+				652ED0FE1BBE5FD800912716 /* CustomCell.xib */,
+				652ED1001BBE636200912716 /* CustomTableViewCell.h */,
+				652ED1011BBE636200912716 /* CustomTableViewCell.m */,
+				652ED1031BBE68AE00912716 /* cat1.jpg */,
 			);
 			path = CustomTableCell;
 			sourceTree = "<group>";
@@ -200,7 +211,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				652ED0E41BBE5D5A00912716 /* Main.storyboard in Resources */,
+				652ED1041BBE68AE00912716 /* cat1.jpg in Resources */,
 				652ED0E91BBE5D5A00912716 /* LaunchScreen.xib in Resources */,
+				652ED0FF1BBE5FD800912716 /* CustomCell.xib in Resources */,
 				652ED0E61BBE5D5A00912716 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +234,7 @@
 			files = (
 				652ED0E11BBE5D5A00912716 /* ViewController.m in Sources */,
 				652ED0DE1BBE5D5A00912716 /* AppDelegate.m in Sources */,
+				652ED1021BBE636200912716 /* CustomTableViewCell.m in Sources */,
 				652ED0DB1BBE5D5A00912716 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
