@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>95DE7BE4-85F1-4978-83BD-E100E178AB83</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CustomTableCell</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FD5FE84B27EFB16AA78E6130D48E2268E2A59A29</key>
+		<string>https://github.com/takujifunao/CustomTableCell.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CustomTableCell.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FD5FE84B27EFB16AA78E6130D48E2268E2A59A29</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/takujifunao/CustomTableCell.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FD5FE84B27EFB16AA78E6130D48E2268E2A59A29</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FD5FE84B27EFB16AA78E6130D48E2268E2A59A29</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CustomTableCell</string>
+		</dict>
+	</array>
+</dict>
+</plist>

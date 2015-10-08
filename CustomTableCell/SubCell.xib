@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1077" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="g4i-jH-KBN" customClass="SubCellView">
+            <rect key="frame" x="0.0" y="0.0" width="290" height="130"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WOc-Id-acG">
+                    <rect key="frame" x="0.0" y="0.0" width="290" height="20.5"/>
+                    <color key="backgroundColor" red="0.91193130569069891" green="0.82782316000224043" blue="1" alpha="0.28000000000000003" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="9" verticalHuggingPriority="8" horizontalCompressionResistancePriority="12" verticalCompressionResistancePriority="8" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KBQ-xp-iqq">
+                    <rect key="frame" x="183" y="25" width="48.5" height="99.5"/>
+                    <color key="backgroundColor" red="1" green="0.63956585817663125" blue="0.13602157625407718" alpha="0.28000000000000003" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="10" verticalHuggingPriority="8" horizontalCompressionResistancePriority="11" verticalCompressionResistancePriority="8" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AFe-Gj-t4K">
+                    <rect key="frame" x="236.5" y="25" width="48.5" height="100"/>
+                    <color key="backgroundColor" red="1" green="0.63956585817663125" blue="0.13602157625407718" alpha="0.28000000000000003" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="10" verticalHuggingPriority="10" horizontalCompressionResistancePriority="10" verticalCompressionResistancePriority="10" image="cat1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="EGR-Cr-1C1">
+                    <rect key="frame" x="13" y="25" width="165" height="91.5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="91.5" id="SAs-Uw-Sod"/>
+                        <constraint firstAttribute="width" constant="165" id="dhA-LT-MbX"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="AFe-Gj-t4K" firstAttribute="top" secondItem="WOc-Id-acG" secondAttribute="bottom" constant="5" id="0pG-bg-5F5"/>
+                <constraint firstItem="AFe-Gj-t4K" firstAttribute="leading" secondItem="KBQ-xp-iqq" secondAttribute="trailing" constant="5" id="6XO-HT-TnI"/>
+                <constraint firstItem="KBQ-xp-iqq" firstAttribute="top" secondItem="WOc-Id-acG" secondAttribute="bottom" constant="5" id="C6q-0p-64u"/>
+                <constraint firstItem="KBQ-xp-iqq" firstAttribute="leading" secondItem="EGR-Cr-1C1" secondAttribute="trailing" constant="5" id="D2F-9o-Fkw"/>
+                <constraint firstItem="EGR-Cr-1C1" firstAttribute="top" secondItem="WOc-Id-acG" secondAttribute="bottom" constant="5" id="DCW-6U-J96"/>
+                <constraint firstItem="KBQ-xp-iqq" firstAttribute="leading" secondItem="EGR-Cr-1C1" secondAttribute="trailing" constant="5" id="Ib8-cE-BVr"/>
+                <constraint firstItem="WOc-Id-acG" firstAttribute="leading" secondItem="g4i-jH-KBN" secondAttribute="leading" id="ORo-vr-R6b"/>
+                <constraint firstItem="EGR-Cr-1C1" firstAttribute="leading" secondItem="g4i-jH-KBN" secondAttribute="leadingMargin" constant="5" id="UBA-Za-5tb"/>
+                <constraint firstAttribute="trailing" secondItem="AFe-Gj-t4K" secondAttribute="trailing" constant="5" id="Uo6-fj-uFT"/>
+                <constraint firstItem="AFe-Gj-t4K" firstAttribute="leading" secondItem="KBQ-xp-iqq" secondAttribute="trailing" constant="5" id="bAA-3M-HgM"/>
+                <constraint firstItem="KBQ-xp-iqq" firstAttribute="leading" secondItem="EGR-Cr-1C1" secondAttribute="trailing" constant="5" id="eTr-oe-eOh"/>
+                <constraint firstAttribute="bottom" secondItem="KBQ-xp-iqq" secondAttribute="bottom" constant="5" id="hYi-XP-8UD"/>
+                <constraint firstAttribute="bottom" secondItem="AFe-Gj-t4K" secondAttribute="bottom" constant="5" id="nOa-Ti-aTZ"/>
+                <constraint firstItem="AFe-Gj-t4K" firstAttribute="width" secondItem="KBQ-xp-iqq" secondAttribute="width" id="o8O-iK-pLd"/>
+                <constraint firstAttribute="trailing" secondItem="WOc-Id-acG" secondAttribute="trailing" id="oC5-md-OZr"/>
+                <constraint firstItem="WOc-Id-acG" firstAttribute="top" secondItem="g4i-jH-KBN" secondAttribute="top" id="qU0-fw-bWI"/>
+                <constraint firstAttribute="bottomMargin" secondItem="EGR-Cr-1C1" secondAttribute="bottom" constant="5" id="rS4-b3-UIN"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="rS4-b3-UIN"/>
+                    <exclude reference="Ib8-cE-BVr"/>
+                    <exclude reference="eTr-oe-eOh"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="dateLabel" destination="WOc-Id-acG" id="xfv-Kq-WWb"/>
+                <outlet property="image" destination="EGR-Cr-1C1" id="n6B-CT-6oF"/>
+                <outlet property="numLabel" destination="KBQ-xp-iqq" id="eM3-QH-Wm7"/>
+                <outlet property="randLabel" destination="AFe-Gj-t4K" id="b8J-W3-2Q4"/>
+            </connections>
+            <point key="canvasLocation" x="316" y="305"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cat1.jpg" width="636" height="335"/>
+    </resources>
+</document>

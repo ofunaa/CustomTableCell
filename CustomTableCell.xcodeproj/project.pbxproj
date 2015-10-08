@@ -17,6 +17,9 @@
 		652ED0FF1BBE5FD800912716 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652ED0FE1BBE5FD800912716 /* CustomCell.xib */; };
 		652ED1021BBE636200912716 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 652ED1011BBE636200912716 /* CustomTableViewCell.m */; };
 		652ED1041BBE68AE00912716 /* cat1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 652ED1031BBE68AE00912716 /* cat1.jpg */; };
+		652ED1081BBE6B0A00912716 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652ED1071BBE6B0A00912716 /* ScrollViewController.m */; };
+		652ED10B1BBE6B7700912716 /* SubCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652ED10A1BBE6B7700912716 /* SubCell.xib */; };
+		652ED10E1BBE6F5900912716 /* SubCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 652ED10D1BBE6F5900912716 /* SubCellView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,11 @@
 		652ED1001BBE636200912716 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
 		652ED1011BBE636200912716 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 		652ED1031BBE68AE00912716 /* cat1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat1.jpg; path = ../../../../Desktop/cats/cat1.jpg; sourceTree = "<group>"; };
+		652ED1061BBE6B0A00912716 /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
+		652ED1071BBE6B0A00912716 /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
+		652ED10A1BBE6B7700912716 /* SubCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubCell.xib; sourceTree = "<group>"; };
+		652ED10C1BBE6F5900912716 /* SubCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubCellView.h; sourceTree = "<group>"; };
+		652ED10D1BBE6F5900912716 /* SubCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubCellView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,16 +98,13 @@
 			children = (
 				652ED0DC1BBE5D5A00912716 /* AppDelegate.h */,
 				652ED0DD1BBE5D5A00912716 /* AppDelegate.m */,
-				652ED0DF1BBE5D5A00912716 /* ViewController.h */,
-				652ED0E01BBE5D5A00912716 /* ViewController.m */,
 				652ED0E21BBE5D5A00912716 /* Main.storyboard */,
 				652ED0E51BBE5D5A00912716 /* Images.xcassets */,
 				652ED0E71BBE5D5A00912716 /* LaunchScreen.xib */,
-				652ED0D81BBE5D5A00912716 /* Supporting Files */,
-				652ED0FE1BBE5FD800912716 /* CustomCell.xib */,
-				652ED1001BBE636200912716 /* CustomTableViewCell.h */,
-				652ED1011BBE636200912716 /* CustomTableViewCell.m */,
 				652ED1031BBE68AE00912716 /* cat1.jpg */,
+				652ED0D81BBE5D5A00912716 /* Supporting Files */,
+				652ED1051BBE6A8400912716 /* CustomTableViewCell */,
+				652ED1091BBE6B3D00912716 /* ScrollView */,
 			);
 			path = CustomTableCell;
 			sourceTree = "<group>";
@@ -128,6 +133,30 @@
 				652ED0F31BBE5D5A00912716 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		652ED1051BBE6A8400912716 /* CustomTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				652ED0DF1BBE5D5A00912716 /* ViewController.h */,
+				652ED0E01BBE5D5A00912716 /* ViewController.m */,
+				652ED0FE1BBE5FD800912716 /* CustomCell.xib */,
+				652ED1001BBE636200912716 /* CustomTableViewCell.h */,
+				652ED1011BBE636200912716 /* CustomTableViewCell.m */,
+			);
+			name = CustomTableViewCell;
+			sourceTree = "<group>";
+		};
+		652ED1091BBE6B3D00912716 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				652ED1061BBE6B0A00912716 /* ScrollViewController.h */,
+				652ED1071BBE6B0A00912716 /* ScrollViewController.m */,
+				652ED10A1BBE6B7700912716 /* SubCell.xib */,
+				652ED10C1BBE6F5900912716 /* SubCellView.h */,
+				652ED10D1BBE6F5900912716 /* SubCellView.m */,
+			);
+			name = ScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +241,7 @@
 			files = (
 				652ED0E41BBE5D5A00912716 /* Main.storyboard in Resources */,
 				652ED1041BBE68AE00912716 /* cat1.jpg in Resources */,
+				652ED10B1BBE6B7700912716 /* SubCell.xib in Resources */,
 				652ED0E91BBE5D5A00912716 /* LaunchScreen.xib in Resources */,
 				652ED0FF1BBE5FD800912716 /* CustomCell.xib in Resources */,
 				652ED0E61BBE5D5A00912716 /* Images.xcassets in Resources */,
@@ -232,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				652ED1081BBE6B0A00912716 /* ScrollViewController.m in Sources */,
+				652ED10E1BBE6F5900912716 /* SubCellView.m in Sources */,
 				652ED0E11BBE5D5A00912716 /* ViewController.m in Sources */,
 				652ED0DE1BBE5D5A00912716 /* AppDelegate.m in Sources */,
 				652ED1021BBE636200912716 /* CustomTableViewCell.m in Sources */,
